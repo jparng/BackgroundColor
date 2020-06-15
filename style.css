@@ -1,0 +1,35 @@
+button{
+    margin-left: 75vh;
+    margin-top: 50vh;
+    border: 3px solid black;
+    width: 20%;
+    padding: 15px 32px;
+    transition:transform 5s;
+    transition-delay: .5s;
+}
+
+button:active{
+    background-color: lightblue;
+}
+
+button:hover{
+    transform: rotate(360deg);
+}
+
+.text{
+    color:white;
+    margin-left: 560px;
+    position: relative;
+    top: 150px;
+    transition: transform 4s;
+    transition-delay: .4s;
+}
+
+.text:hover{
+    color: greenyellow;
+    transform: rotate(20deg);
+}
+
+.text:active{
+    color: blue;
+}
